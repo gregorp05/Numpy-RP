@@ -9,14 +9,13 @@ def for_loop(i, func, *args):
     return None
 
 
-# za vse tistre k niste js :)
+# za vse tiste k niste js :)
 
 # also vse spremenljivke k se ne prenesejo cez funkcije bodo ostale nespremenjene
-# nasreco se vsi np array prenesejo, razen ce ji np.copy as, torej t = np.copy(a)
-# also return type for_insida ni vazn razn ce pol kej naprej z njim delas ampak tko k je zdj spisan ga sam zavrzes
+# nasreco se vsi np array prenesejo, razen ce jih np.copy-as, torej t = np.copy(a)
+# also return type for_insida ni vazn razn ce pol kej naprej z njim delas ampak tko k je zdj spisan ga sam yeetnes stran
 
 # tuki das svoje argumente k jih rabs, nujen je samo i
-
 # primer z 0 dodatnimi argumenti:
 def for_inside1(i, *args):
     #print(i)

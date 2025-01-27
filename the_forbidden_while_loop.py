@@ -29,6 +29,8 @@ def while_break_helper(func, break_arr, ext, *args):
 
 # in while loop there must be a exit case: if you want while True just set it to sth really big
 # 'variables' that you pass must be numpy arrays since they ac like pointers / addresses, could be achieved with classes I think?
+
+# exit is triggered when while_inside func return False 
 def while_inside(i, ff, *args):
     if i[0] > 5000:
         return False

@@ -8,7 +8,11 @@ def for_loop(i, func, *args):
     np.vectorize(lambda idx: func(idx, *args), otypes=[int])(np.arange(i))
     return None
 
+
 # za vse tistre k niste js :)
+
+# also vse spremenljivke k se ne prenesejo cez funkcije bodo ostale nespremenjene
+# nasreco se vsi np array prenesejo, razen ce ji np.copy as, torej t = np.copy(a)
 
 # tuki das svoje argumente k jih rabs, nujen je samo i
 

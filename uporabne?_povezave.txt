@@ -1,1 +1,3 @@
 https://github.com/janezpod/RP-F/tree/main
+
+stran k ti avtomatsko nardi kodo PEP8 compliant: https://formatter.org/python-formatter

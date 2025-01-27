@@ -30,18 +30,17 @@ def while_break_helper(func, break_arr, ext, *args):
 # in while loop there must be a exit case: if you want while True just set it to sth really big
 # 'variables' that you pass must be numpy arrays since they ac like pointers / addresses, could be achieved with classes I think?
 
-# exit is triggered when while_inside func return False 
+# exit is triggered when while_inside func returns False 
 def while_inside(i, ff, *args):
     if i[0] > 5000:
-        return False
+        return False # this is necessary so that the recursion limit error is not triggered, also you want an exist case you p*****
         
-    ff[0] = not ff[0]
+    ff[0] = not ff[0] # flip flop just for demo
 
     print(i[0], ff[0])
 
-    i[0]+= 1
+    i[0]+= 1 # just add 1 to 'index' variable, 
     return True
-
 
 index = np.array([0])
 fliflop = np.array([0])
